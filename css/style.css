@@ -1,0 +1,170 @@
+<<<<<<< HEAD
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.container {
+    height: 94vh;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    /* background-color: #969595; */
+    justify-items: center;
+    /* align-items: stretch; */
+    grid-template-areas: 
+    "contact_form contact_form contact_form contact_info contact_info"
+}
+    #contact_form {
+        grid-area: contact_form;
+    }  
+    #contact_info {
+        grid-area: contact_info;
+    }
+   
+  }
+
+  .item {
+
+    width: 100%;
+    height: 100%;
+    border: 2px solid blue;
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    /* background-color: blue; */
+    border: 2px solid black;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.contact_form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+footer {
+    width: 100%;
+    /* padding-left: 5px; */
+    background-color: #35003a;
+    line-height: 40px;
+    font-size: 14px;
+    /* border-top: 1px solid #e4e4e4; */
+    position: relative;
+    bottom: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+  }
+.footer-company {
+    float: left;
+    border-bottom: 1px solid #e4e4e4;
+    margin-left: 13px;
+    color: #5f6368;
+}
+
+.footer-links {
+  color: #dbdbdb;
+}
+
+.footer-left {
+  float: left;
+}
+
+.footer-right {
+  float: right;
+  margin-right: 25px;
+}
+
+=======
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+}
+
+.contact {
+  color: white;
+  font-size: larger;
+  height: 70px;
+  background-color: purple;
+}
+
+.contact__title {
+  padding-top: 20px;
+  display: block;
+  text-align: center;
+}
+
+span {
+  border: 1px solid orange;
+  border-radius: 7px;
+  padding: 5px 10px 5px;
+  margin-left: 20px;
+  background-color: orangered;
+}
+
+span a {
+  color: inherit;
+  text-decoration-line: inherit;
+}
+
+.navbar__logo {
+  display: block;
+  float: left;
+  margin-left: 100px;
+}
+
+.navbar__links {
+  display: block;
+  float: right;
+  text-decoration-line: none;
+  color: grey;
+  margin: 50px 10px 10px;
+  font-size: large;
+}
+
+.navbar button {
+  background-color: purple;
+  color: white;
+  padding: 5px 20px 5px;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-right: 100px;
+}
+
+.navbar__links:hover {
+  opacity: 0.5;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+>>>>>>> bbfe31438983cf3333c7f0f7f83aca1fb388b784

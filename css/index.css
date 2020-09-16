@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-2,
+#container-5 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0 20px;
+}
+
+header {
+    width: 100%;
+    min-height: 67px;
+    background: #35424a;
+    color: #ffffff;
+    border-bottom: 3px solid #A9508B;
+    padding-top: 33px;
+}
+
+@media screen and (max-width: 700px) {
+    header .header-left {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    
+    header .navbar {
+        width: 500px;
+        margin-right: 0;
+        margin-left: 30%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #container-1, #container-3 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }    
+    
+    #subscribe #title-2 {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 10px;
+        font-size: 23px;
+    }
+    
+    #subscribe form {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+span {
+    color: #A9508B;
+}
+
+#span-1 {
+    font-weight: 600;
+}
+
+.header-left {
+    width: 100%;
+    margin-left: 10%;
+    font-size: 20px;
+}
+
+.navbar {
+    width: 500px;
+    margin-right: 9%;
+}
+
+.navbar-links {
+    color: white;
+    text-decoration: none;
+    padding: 0 5%;
+    text-transform: uppercase;
+    font-size: medium;
+}
+
+
+#main {
+    width: auto;
+    height: 400px;
+    background-image: url(../images/showcase.jpg);
+}
+
+#title-1 {
+    color: #ffffff;
+    font-size: 55px;
+    text-align: center;
+}
+
+#main p {
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+#subscribe {
+    min-height: auto;
+    background: #35424a;
+    color: #ffffff;
+    padding: 31px 0;
+}
+
+#title-2 {
+    width: 100%;
+    margin-left: 11%;
+    font-size: 23px;
+}
+
+form {
+    width: 100%;
+    margin-left: 20%;
+}
+
+#email {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+#submit {
+    height: 38px;
+    background: #a9508b;
+    border: 0;
+    padding: 0 20px;
+    color: #ffffff;
+}
+
+#boxes {
+    min-height: 235px;
+    text-align: center;
+    margin: 20px 110px 0 110px;
+}
+
+.box {
+    width: 30%;
+    padding: 10px;
+}
+
+.box img {
+    width: 90px;
+}
+
+.box h3 {
+    padding-top: 20px;
+    font-size: 18px;
+    line-height: 16px;
+}
+
+.box p {
+    padding-top: 20px;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+footer {
+    padding: 35px;
+    margin-top: 20px;
+    border-top: 3px solid #a9508b;
+    font-size: 15px;
+}
+
+footer img {
+    width: 200px;
+    height: 70px;
+}
+

@@ -95,7 +95,19 @@ span {
     font-size: medium;
 }
 
+.navbar :first-child:hover {
+    color: rgb(174, 176, 178);
+}
 
+.navbar :nth-child(2):hover {
+    color: rgb(174, 176, 178);
+    font-weight: bold;
+}
+
+.navbar :nth-child(3):hover {
+    color: rgb(174, 176, 178);
+    font-weight: bold;
+}
 #main {
     width: auto;
     height: 400px;

@@ -1,44 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="This is our services page." />
     <meta name="keywords" content="services, social media, programs," />
-    <meta name="author" content="Emre Kurt" />
-    <title>Our Services</title>
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
-  </head>
-  <body>
-    <header>
-      <nav class="navbar">
-        <div class="contact">
-          <p class="contact__title">
-            Have a question? <span> <a href="#">Book A Discovery Call</a></span>
-          </p>
-        </div>
+    <meta name="author" content="Abdulkadir Cildir" />
 
-        <img
-          class="navbar__logo"
-          src="./images/claruswaylogo.png"
-          alt="claruswaylogo"
-        />
-        <a class="navbar__links" href="#" target="-blank"
-          ><button>Login</button></a
-        >
-        <a class="navbar__links" id="nav-link" href="#" target="_blank"
-          >AWS & DevOps</a
-        >
-        <a class="navbar__links" id="nav-link" href="#" target="_blank"
-          >Full Stack Developer</a
-        >
-        <a class="navbar__links" id="nav-link" href="#" target="_blank"
-          >Data Science</a
-        >
-        </nav>
-      <div class="clearfix"></div>
+    <title>Clarusway Web Design | Services</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/services.css">
+</head>
+
+<body>
+    <header>
+        <div class="container" id="container-1">
+            <div class="header-left">
+                <h2><span>Clarusway</span> Web Design</h2>
+            </div>
+            <nav class="navbar">
+                <a href="index.html" class="navbar-links">Home</a>
+                <a href="about.html" class="navbar-links">About</a>
+                <a href="services.html" class="navbar-links"><span id="span-1">Services</span></a>
+            </nav>    
+        </div>
     </header>
-  </body>
+
+    <section id="subscribe">
+        <div class="container" id="container-2">
+            <h3 id="title-1">Subscribe To Our Newsletter</h3>
+            <form id="form-1" action="#">
+                <input type="email" id="email" placeholder="Enter Email..." required>
+                <button type="submit" id="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="boxes">
+        <div class="container" id="container-3">
+            <article class="box" id="article">
+              <h1>Services</h1>
+              <ul id="services">
+                <li>
+                  <h3>Website Design</h3> 
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet
+                     ultricies at, vulputate id lorem. Nulla facilisi. <br> <br> Pricing: $1,000 - $3,000</p>
+                </li>
+                <li>
+                  <h3>Website Maintenance</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet
+                     ultricies at, vulputate id lorem. Nulla facilisi. <br> <br> Pricing: $250 per month</p>
+                </li>
+                <li>
+                  <h3>Website Hosting</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet
+                     ultricies at, vulputate id lorem. Nulla facilisi. <br> <br> Pricing: $25 per month</p>
+                </li>
+              </ul>
+            </article>
+
+            <aside id="sidebar">
+               <div class="dark">
+                 <h3>Get A Quote</h3>
+                 <form id="form-2" action="#">
+                   <div>
+                     <label for="#">Name</label><br>
+                     <input type="text" placeholder="Name">
+                   </div>
+                   <div>
+                     <label for="#">Email</label><br>
+                     <input type="text" placeholder="Email Address">
+                   </div>
+                   <div>
+                     <label for="#">Message</label><br>
+                     <textarea placeholder="Message"></textarea>
+                   </div>
+                   <button type="submit">Send</button>
+                 </form>
+               </div>
+            </aside>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container" id="container-4">
+            <p>Clarusway Web Design, Copyright © 2020</p>
+            <a href="http://www.clarusway.com"><img src="images/claruswaylogo.png" alt=""></a>
+        </div>
+    </footer>
+   
+</body>
 </html>
